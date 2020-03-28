@@ -1,0 +1,12 @@
+2020-03-28 02:48:57,903|INFO|create_database|Connecting to default database
+2020-03-28 02:48:58,025|INFO|create_database|Connected to default database
+2020-03-28 02:48:58,026|INFO|create_database|Dropping sparkifydb database if exist
+2020-03-28 02:48:58,765|INFO|create_database|sparkifydb database dropped
+2020-03-28 02:48:58,765|INFO|create_database|Creating sparkifydb database if not exist
+2020-03-28 02:49:06,315|INFO|create_database|sparkifydb database created
+2020-03-28 02:49:06,316|INFO|create_database|Closing default connection
+2020-03-28 02:49:06,320|INFO|create_database|Connecting to sparkifydb database
+2020-03-28 02:49:06,478|INFO|create_database|Connected to sparkifydb database
+2020-03-28 02:49:06,478|INFO|drop_tables|Dropping all tables
+2020-03-28 02:49:06,555|INFO|create_tables|Creating all tables
+2020-03-28 02:49:06,976|INFO|main|Closing connection

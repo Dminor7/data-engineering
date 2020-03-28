@@ -1,0 +1,28 @@
+2020-03-28 02:49:39,560|INFO|inner|
+make_connection()
+2020-03-28 02:49:39,680|INFO|inner|Time   0.1167
+2020-03-28 02:49:39,909|INFO|inner|Memory 0.0390625
+2020-03-28 02:49:39,912|INFO|inner|
+get_data()
+2020-03-28 02:49:39,913|INFO|inner|Time   3.78e-05
+2020-03-28 02:49:40,007|INFO|inner|Memory 0.0
+2020-03-28 02:49:40,008|INFO|inner|
+get_data()
+2020-03-28 02:49:40,009|INFO|inner|Time   8.2e-06
+2020-03-28 02:49:40,078|INFO|inner|Memory 0.0
+2020-03-28 02:49:40,081|INFO|inner|
+get_lookup()
+2020-03-28 02:49:40,177|INFO|inner|Time   0.0947
+2020-03-28 02:49:40,240|INFO|inner|Memory 0.0
+2020-03-28 02:49:40,242|INFO|inner|
+parse_logs()
+2020-03-28 02:49:40,243|INFO|inner|Time   3.37e-05
+2020-03-28 02:49:40,314|INFO|inner|Memory 0.0
+2020-03-28 02:49:40,317|INFO|inner|
+insert_song_data()
+2020-03-28 02:49:40,326|INFO|inner|Time   0.008036
+2020-03-28 02:49:40,411|INFO|inner|Memory 0.0
+2020-03-28 02:49:40,415|INFO|inner|
+insert_log_data()
+2020-03-28 02:49:40,778|INFO|inner|Time   0.3619
+2020-03-28 02:49:40,826|INFO|inner|Memory 0.0

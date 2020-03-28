@@ -1,0 +1,16 @@
+2020-03-28 02:49:39,557|INFO|main|Connecting to sparkifydb database
+2020-03-28 02:49:39,911|INFO|main|Connected to database sparkifydb
+2020-03-28 02:49:39,911|INFO|main|EXTRACT
+2020-03-28 02:49:39,912|INFO|main|Retriving JSON files
+2020-03-28 02:49:40,079|INFO|main|JSON files recievied
+2020-03-28 02:49:40,080|INFO|main|EXTRACT DONE
+2020-03-28 02:49:40,080|INFO|main|TRANFORM
+2020-03-28 02:49:40,316|INFO|main|TRANSFORM DONE
+2020-03-28 02:49:40,317|INFO|main|LOAD
+2020-03-28 02:49:40,413|INFO|main|Data inserted into songs table
+2020-03-28 02:49:40,415|INFO|main|Data inserted into artists table
+2020-03-28 02:49:40,827|INFO|main|Data inserted into time table
+2020-03-28 02:49:40,828|INFO|main|Data inserted into users table
+2020-03-28 02:49:40,829|INFO|main|Data inserted into songplays table
+2020-03-28 02:49:40,829|INFO|main|LOAD DONE
+2020-03-28 02:49:40,830|INFO|main|Connection closed
