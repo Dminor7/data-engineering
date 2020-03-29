@@ -2,3 +2,4 @@ env/*
 experiments/*
 .vscode/*
 data-modeling/dm-postgres/database.ini
+data-modeling/dm-postgres/__pycache__
