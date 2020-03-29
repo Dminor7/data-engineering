@@ -128,4 +128,4 @@ Prerequisites:
 
 ## Author
 
-* **Darsh Shukla (Dminor7)** - [Github](https://github.com/Dminor7) - [LinkedIn](https://www.linkedin.com/in/darsh-shukla-277825174/)
+* **Darsh Shukla (Dminor7)** - [Github](https://github.com/Dminor7) - [LinkedIn](https://www.linkedin.com/in/darsh-shukla)
