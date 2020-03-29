@@ -33,17 +33,21 @@ def get_data(location):
         logger.exception("Error Occured {}".format(e))
     
     if("song_data" in location):
+        song_data = []
         for file in files:
             with open(file) as f:
                 data = json.loads(f.read())
-                yield data
+                song_data.append(data)
+        return song_data
     
     if("log_data" in location):
+        log_data = []
         for file in files:
             with open(file) as f:
                 data_list = ndjson.load(f)
                 for data in data_list:
-                    yield data 
+                    log_data.append(data)
+        return log_data
 
 @profile
 def get_lookup(songs):
@@ -61,18 +65,20 @@ def get_lookup(songs):
 @profile
 def parse_logs(logs,song_map):
     logs = filter(lambda d: d['page'] == "NextSong" ,logs)
+    data = []
     for log in logs:
         if(song_map.get((log['song'].lower(),log['artist'].lower()))):
             song_id,artist_id = (log['song'],log['artist'])
             new_log = copy.deepcopy(log)
             new_log['song_id'] = song_id
             new_log['artist_id'] = artist_id
-            yield new_log
+            data.append(new_log)
     else:
         new_log = copy.deepcopy(log)
         new_log['song_id'] = None
         new_log['artist_id'] = None
-        yield new_log
+        data.append(new_log)
+    return data
 
 
 def copy_string_iterator(connection, table_name, data, size = 1024):
