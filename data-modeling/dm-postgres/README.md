@@ -14,7 +14,7 @@ Currently, they don't have an easy way to query their data, which resides in a d
 Goal is to create a database schema and ETL pipeline for this analysis.
 
 ### Data
-[Million Song Dataset] (http://millionsongdataset.com "Data Set Used")
+[Million Song Dataset](http://millionsongdataset.com "Dataset")
 - **Song datasets**: all json files are nested in subdirectories under */data/song_data*. A sample of this files is:
 
 ```
